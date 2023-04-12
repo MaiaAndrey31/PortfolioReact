@@ -30,12 +30,13 @@ export const NavHeader = styled.div `
     
  }
 
- li{
+ a {
     color: #ffffff;
   list-style: none;
   display: inline-block;
   font-size: 22px;
   margin-right: 28px;
+  text-decoration: none;
  
 
    &:hover {
@@ -45,5 +46,7 @@ export const NavHeader = styled.div `
 
    }
  }
+
+ 
 
 `

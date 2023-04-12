@@ -10,27 +10,27 @@ function Header() {
 
         <ul>
           <li>
-            <a>
+            <a href="/" >
               Home
             </a>
           </li>
           <li>
-            <a >
+            <a href='/sobre'>
               Sobre
             </a>
           </li>
           <li>
-            <a>
+            <a href='projetos'>
               Projetos
             </a>
           </li>
           <li>
-            <a>
+            <a href='conhecimentos'>
               Conhecimentos
             </a>
           </li>
           <li>
-            <a>
+            <a href='contato'>
               Fale Comigo
             </a>
           </li>
