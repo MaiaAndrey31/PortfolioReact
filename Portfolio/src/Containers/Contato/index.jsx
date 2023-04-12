@@ -1,9 +1,11 @@
 import Header from "../../Components/Header";
 import { BgContato, FaleComigo, GitHubContato, LinkedinContato, TelefoneContato } from "./styles";
+import Footer  from "../../Components/Footer";
 
 
 function Contato() {
     return (
+      <>
 
       <BgContato>
         <Header />
@@ -45,6 +47,10 @@ function Contato() {
   </div>
   </FaleComigo>
   </BgContato>
+ 
+  <Footer />
+  </>
+  
     );
   }
   

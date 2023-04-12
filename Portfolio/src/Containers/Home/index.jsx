@@ -1,9 +1,11 @@
 import { Background, Name  } from "./styles";
 import Header from '../../Components/Header/index'
+import Footer from "../../Components/Footer";
 
 function Home() {
   return (
 
+    <>
     <Background> 
      <Header />
             
@@ -14,7 +16,10 @@ function Home() {
           <h3 className="animacao-principal">Desenvolvedor Front End</h3>
           </Name>
              
-      </Background>
+             
+      </Background>  
+      <Footer />      
+      </>   
    
   );
 }

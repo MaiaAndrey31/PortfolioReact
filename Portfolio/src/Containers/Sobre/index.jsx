@@ -1,8 +1,10 @@
 import { BgAbout, About, ImagemAndrey } from "./styles";
 import Header from '../../Components/Header'
+import Footer from "../../Components/Footer";
 
 function Sobre() {
     return (
+      <>
       <BgAbout>
         <Header />
         <About>
@@ -24,6 +26,8 @@ function Sobre() {
       </About>
 
   </BgAbout>
+  <Footer />
+  </>
     );
   }
   
