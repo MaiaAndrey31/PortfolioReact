@@ -13,7 +13,7 @@ function Contato() {
       <p>Para mais informações</p>
       <div className="social">
           <a href="https://contate.me/andrey-maia" target="_blank">
-             <img src = {<TelefoneContato/>} alt="Telefone" />
+            <TelefoneContato/>
           </a>
           <a href="https://www.linkedin.com/in/maia-andrey/" target="_blank">
               <LinkedinContato/>

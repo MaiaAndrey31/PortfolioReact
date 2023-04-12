@@ -124,24 +124,31 @@ export const FaleComigo = styled.div`
   export const GitHubContato = styled.div`
 
   background-image: url(${GitHub});
-    height: 36px;
+  background-size: cover; 
+  width: 40px;
+    height: 40px;
     border-radius: 50%;
-  z-index: 2;
+    
+  
   
   
   `
    export const LinkedinContato = styled.div`
    background-image: url(${Linkedin});
-    height: 36px;
+   background-size: cover; 
+   width: 40px;
+    height: 40px;
     border-radius: 50%;
-   z-index: 2;
+    
    
    `
     export const TelefoneContato = styled.div`
-    background-image: url(${Telefone});    
-    height: 36px;
-    border-radius: 50%;
-    z-index: 2;
+    background-image: url(${Telefone}); 
+    background-size: cover;   
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+   
     
     `
    
