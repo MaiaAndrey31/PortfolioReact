@@ -8,7 +8,7 @@ export const NavHeader = styled.div `
   padding-left: 35px;
   padding-right: 35px;
   padding-top: 29px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
  
  
  
