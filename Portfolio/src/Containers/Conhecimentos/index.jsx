@@ -1,9 +1,17 @@
+import {BgConhecimentos} from './styles'
+import Footer from '../../Components/Footer';
+import Header from '../../Components/Header';
+
 function Conhecimentos() {
     return (
-      <div>
+      <>
+      <BgConhecimentos>
+        <Header />
         <h1>Conhecimentos</h1>
-      </div>
-    );
+      </BgConhecimentos>
+      <Footer />
+      </>
+    )
   }
   
-  export default Conhecimentos;
+  export default Conhecimentos 

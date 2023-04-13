@@ -5,20 +5,20 @@ import Footer from "../../Components/Footer";
 function Home() {
   return (
 
-    <>
-    <Background> 
-     <Header />
+      <>
+        <Background> 
+          <Header />
             
           <Name>
          
-          <h1 className="animacao">Andrey <span>Maia</span></h1>
+            <h1 className="animacao">Andrey <span>Maia</span></h1>
           
-          <h3 className="animacao-principal">Desenvolvedor Front End</h3>
+            <h3 className="animacao-principal">Desenvolvedor Front End</h3>
           </Name>
              
              
-      </Background>  
-      <Footer />      
+        </Background>  
+        <Footer />      
       </>   
    
   );
