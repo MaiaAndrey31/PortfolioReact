@@ -28,14 +28,14 @@ function Projetos() {
                 </CardProjetos>
 
                 <CardProjetos>
-                <Image url={Star}  />
+                <Image url={<Star/>}  />
                 <H3>Starbucks</H3>
                 <P>Projeto Realizado como uma Landing Page da Starbucks para aprimorar os conhecimentos em HTML, CSS e
                     JavaScript.</P>
                 <A href="https://maiaandrey31.github.io/Starbucks/" target="_blank">Ver Projeto</A>
                 </CardProjetos>
                 <CardProjetos>
-                <Image url={Cron}  />
+                <Image url= {<Cron/>} />
                 <H3>Cronômetro</H3>
                 <P>Realização do projeto utilizando HTML, CSS e JavaScript. Confira o Projeto e funcionalidade no botão
                     abaixo.</P>
