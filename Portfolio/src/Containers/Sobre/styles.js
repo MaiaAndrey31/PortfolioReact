@@ -64,6 +64,7 @@ export const ImagemAndrey = styled.img`
   border-radius: 100%;
   border: 2px solid #f9d400;
  margin-left: 35px;
+ 
 
 `
 
