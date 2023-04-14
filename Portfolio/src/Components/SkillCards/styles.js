@@ -1,16 +1,12 @@
 import styled from "styled-components";
 
-export const CardPro = styled.div`
-
+export const CardSk = styled.div`
     background-color: #000000;
     box-shadow: inset 5px 5px 8px #feffbb;
-    height: 380px;
-    width: 280px;
+    height: 310px;
+    width: 220px;
     border-radius: 20px;
-    padding: 10px 35px;
+    padding: 10px 10px;
     text-align: center;
-    margin-top: 35px;
-    z-index: 2;
- 
-`
-
+    margin-bottom: 50px;
+  `

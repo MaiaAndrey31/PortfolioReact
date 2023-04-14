@@ -56,7 +56,7 @@ h3 {
 
 @keyframes slide {
   from {
-    transform: translateX(-400px) scale(4);
+    transform: translateX(-400px) scale(6);
     opacity: 0;
   }
 

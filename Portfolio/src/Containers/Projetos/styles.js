@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import ImagemProjetos from "../.././assets/BgProjetos.jpg"
-import Netflix from '../.././assets/netflix.png'
-import Starbucks from '../.././assets/starbucks.png'
-import Crono from '../.././assets/crono.png'
+
 
 export const ProjetosDiv = styled.div`
 
@@ -13,8 +11,8 @@ export const ProjetosDiv = styled.div`
   
    h2 {
     color: #ffffff;    
-    font-size: 40px;
-    text-align: justify;
+    font-size: 60px;
+    text-align: center;
    justify-content: center;
    align-items: center;
   }
@@ -22,7 +20,11 @@ export const ProjetosDiv = styled.div`
   export const Cards = styled.div` 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: safe;
+    gap: 50px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    
     
   
 
@@ -61,31 +63,15 @@ transition: 0.6s;
 export const BgProjetos = styled.div`
 background-image: url(${ImagemProjetos});
 background-size: cover;
-height: 170vh;
-width: 100vw;
+height: max-content;
+width: 100%;
 margin-bottom: 0;
 padding-bottom: 0;
 
 
 `
-export const Net = styled.img`
-background-image: url(${Netflix});
-height: 90px;
-width: 90px;
-background-size: cover;
-`
-export const Cron = styled.img`
-background-image: url(${Crono});
-height: 90px;
-width: 90px;
-background-size: cover;
-`
-export const Star = styled.img`
-background-image: url(${Starbucks});
-height: 90px;
-width: 90px;
-background-size: cover;
-`
+
+
 
 
 export const Image = styled.img`
