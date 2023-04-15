@@ -10,7 +10,9 @@ export const ProjetosDiv = styled.div`
     
   
    h2 {
-    color: #ffffff;    
+    color: #ffffff; 
+    font-weight: 900;
+     
     font-size: 60px;
     text-align: center;
    justify-content: center;

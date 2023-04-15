@@ -10,5 +10,21 @@ export default createGlobalStyle `
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
 }
-
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f9d004;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ffeb84;
+  }
 `
